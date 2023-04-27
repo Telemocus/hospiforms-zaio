@@ -11,17 +11,16 @@
 }
 
 .login-card{
+    /* display: none; */
     width: 300px;
     padding: 10px;
     text-align: center;
     background-color: whitesmoke;
 }
 .signup-card{
-    /*  */
-    display: none;
+    /* display: none;  */
     width: 300px;
     padding: 10px;
-    border: 1px solid black;
     background-color: whitesmoke;
 }
 .btn-div{

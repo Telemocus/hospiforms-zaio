@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hopiforms</title>
+    <title>Hospiforms</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -14,8 +14,8 @@
     
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid vh-15 border-bottom">
           <a class="navbar-brand" href="#">
             <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
             Hospiforms
@@ -24,54 +24,71 @@
     </nav>
     <!-- Navbar end -->
 
-    <div class="container-fluid-1 p-3 mb-2 bg-light text-dark">
+    <div class="container-fluid-1 vh-100 p-3 mb-2 bg-light text-dark">
 
         <div class="login-card">
             <h2>LOGIN</h2>
             <p>SIGN IN TO CONTINUE</p>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">EMAIL ADDRESS</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control border border-secondary" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <label for="inputPassword5" class="form-label">PASSWORD</label>
-            <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock">
+            <input type="password" id="inputPassword5" class="form-control border border-secondary" aria-labelledby="passwordHelpBlock">
             
-            <div class="mt-3">
-                <button type="button" class="btn btn-primary">LOGIN</button>
+            <div class="mt-4">
+                <button type="button" class="btn btn-primary w-100">LOGIN</button>
             </div>
             
         </div>
-
+            <!--  Sign Up Card Start-->
         <div class="signup-card">
             <h2 style="text-align: center;">SIGNUP</h2>
             <p style="text-align: center;">CREATE AN ACCOUNT</p>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">EMAIL ADDRESS</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control border border-secondary" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="mb-3">
                 <label for="inputPassword5" class="form-label">PASSWORD</label>
-                <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock">
+                <input type="password" id="inputPassword5" class="form-control border border-secondary" aria-labelledby="passwordHelpBlock">
             </div>
             
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">CLINIC NAME</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1">
+                <input type="text" class="form-control border border-secondary" id="exampleFormControlInput1">
             </div>
 
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">PRACTISE NUMBER</label>
-            <input type="number" class="form-control" id="exampleFormControlInput1">
+            <input type="number" class="form-control border border-secondary" id="exampleFormControlInput1">
             </div>
             
             <div class="btn-div">
-                <button type="button" class="btn btn-primary">SIGNUP</button>
+                <button type="button border border-secondary" class="btn btn-primary w-100">SIGNUP</button>
             </div>
             
         </div>
-        
+            <!--  Sign Up Card End-->
     </div>
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
