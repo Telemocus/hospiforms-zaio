@@ -1,19 +1,9 @@
 *{
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
-.navbar{
+.container-fluid-1{
     display: flex;
-    width: 100%;
-    height: 25vh;
-}
-
-.container{
-    display: flex;
-    width: 100%;
-    background-color: rgb(235, 224, 209);
     align-items: center;
     justify-content: center;
     justify-content: space-around;
@@ -24,10 +14,11 @@
     width: 300px;
     padding: 10px;
     text-align: center;
-    border: 1px solid black;
     background-color: whitesmoke;
 }
 .signup-card{
+    /*  */
+    display: none;
     width: 300px;
     padding: 10px;
     border: 1px solid black;
